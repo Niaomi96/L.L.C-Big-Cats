@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<!--------Niaomi James/ 3/6/23---------->
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L.L.C African Big Cats</title>
+<link rel="shortcut icon" type="image/jpg" href="llc-logo.ico"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="BL.css">
+<script src="BL.js"></script>
+</head>
+<style>
+body{
+
+  background: linear-gradient( rgba(12,3,51,0.3), rgba(12,3,51,0.3)) ;
+ 
+ }
+.llc{
+width: 100%;
+height: 100vh;
+position: relative;
+padding: 0 5%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(contact.jpg);
+  background-size: cover;
+}
+
+.column {
+  float: left;
+  width: 25.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+ 
+}
+
+.containerTab {
+  padding: 20px;
+
+  width: 500px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin: right;
+}
+
+
+
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+h2{
+ font-size: 70px;
+ letter-spacing: 10px;
+ text-transform: uppercase;
+  color: #ffffffad;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+h3{
+ font-size: 30px;
+ letter-spacing: 10px;
+ text-transform: uppercase;
+  color: #ffffffad;
+  font-family: 'Poppins', sans-serif;
+  display: table-cell;
+}
+
+ .row img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+p{
+  margin-top: 30px;
+  font-size: 14px;
+  color: #ffffffad;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  padding: 20px 0 30px 0;
+  
+} 
+.content1{
+  padding: 20px;
+width: 500px;
+}
+.vl {
+  border-left: 6px solid #ffffffad;
+  height: 500px;
+  margin: left;
+}
+
+</style>
+<body>
+
+  <div class="llc">
+    <!-----menu/nav------->     
+    <nav style="width: 100%;height: 145px; background-image:     url(header.png); background-size: 100% 100%;">
+      <a href="LLC.html"><img src="llc-logo.png" alt="llc-logo" class="logo" style="border: #ffffffad; border-width:3px; border-style:solid; "></a>
+        <ul>
+          <li><a href="LLC.html">Home</a></li>
+          <li><a href="EXP.html">Explore</a></li>
+          <li><a href="CM.html">Contact Me</a></li>
+      </ul>
+      </nav>
+<!--initilize About Big Cats--->
+
+  
+  <!--  columns iamges -->
+  <div class="container">
+      <div class="row">
+        <legend><div class="vl" ></div></legend>
+        <legend ><h3>About African Big Cats</h3></legend>
+        
+        <div class="column" onclick="openTab('b1');" ><img src="lioness.png" alt="" style="height: 300px; width: 150px ; ">
+        </div>
+        
+        <div class="column" onclick="openTab('b2');" ><img src="leopard.png" alt="" style="height: 300px; width: 150px;  "></div>
+        
+        <div class="column" onclick="openTab('b3');"><img src="cheetah.png" alt="" style="height: 300px; width: 150px; "></div>
+      </div>
+      
+      </div>
+      <legend><div class="vl" ></div></legend>
+      <!--  popup text -->
+      
+      <div id="b1" class="containerTab" style="display:none;background: linear-gradient( rgba(12, 3, 51, 0.596), rgba(12, 3, 51, 0.196)) ;">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <h2>Lion</h2>
+                <p>Scientific  Name: Panthera leo<br>
+                  Size: Head and body, 4.5 to 6.5 feet; tail, 26.25 to 39.5 inches<br>
+                  Weight: 265 to 420 pounds<br>
+                  Speed: 81 km/h (50.3 mph)<br>
+                  Lions are one of the only big  cats species that  live together in group settings, called a pride. These large cats are infamously known  for work as cooperative team to plan their  strategic tactics, 
+                  to obtain a meal. Male cubs  stay with the pride up until the age of 2-3 years old. The juvenile males are either chased  out by the domain  male lions or chased out by a new pride male, that has
+                  viciously mauled the former male lion, during  a pride  takeover. Just, because he has won the  war, doesn't mean he has won  the battle with the lionesses. If it's coalition of brothers, it's  very dangerous for 
+                  lionesses during  pride  takeover. Regardless of this they will defend their cubs with there lives, even going as far as tricking the male lion into being interested in mating,  
+                  to give there pride a chance to get away from dangerous males, which will kill cubs  to through, the existing adult  lioness  into heat. Male lions that take over a pride will also chase off 
+                  juvenile lioness. A pride is a tight  unit family, with mothers, daughters, sisters, cousins, and young. As this is the core foundation of a pride, male lions come and go in there lives.
+                  With  pride, hunts are more successful, than  a lone lion, and defending one another from  hyenas  always tips the  scale  with there dangerous fight to hold onto a meal.
+                  <br>
+                  Fun Fact: Lion's roar can be heard from five miles away. 
+                </p>
+      </div>
+      
+      <div id="b2" class="containerTab" style="display:none;background: linear-gradient( rgba(12, 3, 51, 0.596), rgba(12, 3, 51, 0.196)) ;">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <h2>Leopard</h2>
+        <p>Scientific  Name: Panthera pardus<br>
+          Size: Head and body: 4.25 to 6.25 feet; tail: 3.5 to 4.5 feet<br>
+          Weight: 66 to 176 pounds<br>
+          Speed: 56-60 km/h (35-37 mph)<br>
+          
+         Leopards are known for their elusive reclusive behavior of not  being heard, but seen till it's too late. 
+         These are solitary hunters that dwell in thick brushes of the savannahs. However, they have some of the best  tactics when it comes to hunting, 
+         such as, there way of using gravity to land itself a meal. With  there rotating ankles/ wrists, they can climb  up  and down a tree flawlessly. 
+         This  comes into  a key role of nimbleness within the branches catching prey from  there as well. They are also innovative, when comes to droughts(Africa's dry season), 
+         as they will also go fishing for catfish, in the drying up ponds/rivers. There are pros  to being solitary hunters, however, being  solitary have its cons, 
+         they are more likely to lose their prey to larger animal,  if they haven't secured there prey up a tree, moments after a hunt, it would  be taken  usually 
+         by the optimistic hyena. With  that note, cubs soully depend  upon  there  mother for everything, such as, protection and meals. Which leaves them vulnerable
+         when there mother is away hunting, which  in return  yields more  cub deaths, as each predator seeks  out each others cubs, 
+         to reduce the competition for prey resources. It's  a 2/5 chance a leopard cub  would  make it to adolescents, and  the adolescents making it to adulthood. 
+          <br>
+          Fun Fact: The dark spots on their bodies are called rosettes. 
+        </p>
+      </div>
+      
+      <div id="b3" class="containerTab" style="display:none;background: linear-gradient( rgba(12, 3, 51, 0.596), rgba(12, 3, 51, 0.196)) ;">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+        <h2>Cheetah</h2>
+        <p>Scientific  Name: Acinonyx jubatus<br>
+          Size: Body: 3.7 to 4.6 feet; tail: two to 2.7 feet<br>
+          Weight: 77 to 143 pounds<br>
+          Cheetahs are known  for  there 0-70 mph sprint which leaves them air born for few minutes before there feet touch the ground once more again, 
+          with that great speed they us  there  tails as rutters to make sharp aerodynamic turns in pursuit of prey. 
+          They are more  successful to  catch prey, however, less likely to keep their prey, as they lose 75% of their 
+          meals  to bigger and badder predators. Cubs  are also dependent upon their mothers for the necessity and have  
+          very risky journey to adolescents into adulthood which doesn't guarantee that  they wouldn't get killed by lion in  
+          there adult life as well. Being a cheetah is very  complicated life, they have to sleep with a one eye open. Their speed makes  
+          up for  it, as it makes it harder for them to be killed by larger predators and they adapted by consuming there meal much quicker 
+          before larger  predators come. There  cubs also  adapted by looking  like a honey badger, which they use there fur to blind in to  the tall grasses. 
+          Cheetahs have  been redeem as none big cats, due to fact they purr, so they are known  as little cats.
+          <br>
+          Fun Fact: Cheetahs are the only big cats (little cats), that can't retract their claws. 
+        </p>
+      </div>
+          
+        
+          </div>
+  
+        </div>
+        
+        <legend><h2 style="border: #ffffffad; border-width:5px; border-style:solid;"> </h2><legend>
+       
+        <!---Divergence Evolution-->
+        <h2 style="text-align: center;">Divergence Evolution</h2>
+        <div style="display: flex;justify-content: center; border-right:  10px solid #ffffffad; width: 1000px; ">
+             <img src="de.png" alt="" style="width: 500px; height: 500px;">
+   <div class="content1">
+             <h4 style="font-size: 20px; color: #ffffffad; font-family: 'Poppins', sans-serif;" > 
+              When did each big cat/ little cat 
+              diverged in there evolution after feliformia 
+              there common ancestor?</h4><br>
+              <p style="font-size: 17px; ">
+              Previously, paleontologist believed  that  cave lions and  modern lions diverged from feliformia  
+              five hundred thousand years ago, however the new estimation, through full mitochondrial sequences 
+              and multiple fossil constraints, instead  of  fragments, have come to outstanding  observation that 
+              they may, have started there divergence 1.89 million years ago. Leopards, are a complex  case observation, 
+              due to fact that  there origin isn't located in Africa, but in Eurasia, during the Early Pleistocene. 
+              There isn't  significant  amount  of data on the reclusive felidae,  even  their bones are elusive. 
+              However, they have created estimates time zone, such as, the African and Eurasian mitochondrial lineages 
+              (~710 Ka), whereas  the Asian lineages (~483 Ka), which is a ancient sister  to all European lineages, 
+              and lastly, modern and historical mainland Asian lineages share a relatively recent common ancestor (~122 Ka). 
+              The cheetah, has numerous molecular, which suggest it diverged six to eight million years ago, right here in North America.
+              
+            
+      </p>
+           
+            </div>
+         
+    </div>
+        <!---Histroical/ Current Range-->
+        <h2 style="text-align: center;">Histroical & Current Range</h2>
+        <div style="display: flex;justify-content: center; border-left:  10px solid #ffffffad; border-top: 10px solid #ffffffad; width: 1000px; ">
+
+   <div class="content1">
+    <h4 style="font-size: 20px; color: #ffffffad; font-family: 'Poppins', sans-serif;" > 
+      What are the historical and current 
+      ranges of the lion, leopard, & cheetah?</h4><br>
+              <p style="font-size: 17px;text-align: left; ">
+                Historically, lions ranged from  Africa to east Asia,
+                and also south Europe. However, in the present day, lions range mainly in Africa,  
+                and it's small population in Asia( Asiatic Lions). There populations has drastically 
+                dropped over the years, are now ranging in twenty thousands in the wild, and  are classified
+                as endangered. Like suggest before, leopards has traveled across  the Asia peninsula, and has 
+                resided from, east Asia to Africa, also, including Persian.  Sadly,  that was there historically
+                range. There current range is Africa and fragmentation in east Asia, they are also located in the 
+                south American. There population sits at two hundred and  fifty thousand, this isn't  including  
+                there subspecies. Cheetahs have the lowest population on record,  at seven thousand one hundred, 
+                they use  to  range from Africa to east Asia,  however, there  are near extinction, and are critically 
+                endangered. All big cats, doesn't  matter where they are from, they need are  help and protect. 
+              
+            
+      </p>
+         
+  </div>
+ </div>
+ <!---intilizing footer---->   
+ <legend><h2 style="border: #ffffffad; border-width:1px; border-style:solid; "> </h2><legend>  
+<div class="row2">
+<div id="footer" style="justify-content: space-between;">
+ <h4 style="color: #ffffffad; font-family: 'Poppins', sans-serif; text-align: center;justify-content: space-between;"><strong>Niaomi Jame @2023</strong></h4> 
+<div class="social-link">
+  <a href="https://github.com/Niaomi96" style="color: #ffffffad; font-size: 30px;"><i class="fa-brands fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/niaomi-james-173abb259/"style="color: #ffffffad; font-size: 30px;"><i class="fa-brands fa-linkedin-in"></i></a>
+  <a href="https://www.instagram.com/vitalisqueenbee/"style="color: #ffffffad; font-size: 30px;"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://www.youtube.com/channel/UC5uYJqJZ9Y0Bxl8Vb8R2Ffg"style="color: #ffffffad; font-size: 30px;"><i class="fa-brands fa-youtube"></i></a>
+</div>
+</div>
+</div> 
+  </body>
+  
+    
+   <!----Script-----> 
+    <script>
+    
+      function openTab(tabName) {
+      var i, x;
+      x = document.getElementsByClassName("containerTab");
+      for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+      }
+      document.getElementById(tabName).style.display = "block";
+      }
+      
+      </script>
+</html>
+
